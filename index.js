@@ -289,7 +289,7 @@ function isParentSameOrigin () {
  */
 function confirmPageUnload () {
   window.addEventListener('beforeunload', event => {
-    speak('Please don\'t go!')
+    speak('Ale do 23 mam czas nie wylaczaj mi!')
     event.returnValue = true
   })
 }
